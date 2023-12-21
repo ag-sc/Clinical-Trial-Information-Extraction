@@ -1,0 +1,11 @@
+scripts-extractive/extractive-dm2.sh 'allenai/longformer-base-4096' | tee train-longformer-dm2.txt
+
+scripts-extractive/extractive-dm2.sh "allenai/led-base-16384" | tee train-led-dm2.txt
+
+scripts-extractive/extractive-dm2.sh "google/flan-t5-base" | tee train-t5-dm2.txt
+
+scripts-extractive/extractive-gl.sh 'allenai/longformer-base-4096' | tee train-longformer-gl.txt
+
+scripts-extractive/extractive-gl.sh "allenai/led-base-16384" | tee train-led-gl.txt
+
+scripts-extractive/extractive-gl.sh "google/flan-t5-base" | tee train-t5-gl.txt
