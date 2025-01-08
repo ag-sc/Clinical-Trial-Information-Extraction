@@ -1,6 +1,7 @@
 # Artifact "Comparing Generative and Extractive Approaches to Information Extraction from Abstracts Describing Randomized Clinical Trials"
 
-DOI: [http://doi.org/10.1186/s13326-024-00305-2][(http://doi.org/10.1186/s13326-024-00305-2)
+DOI: [http://doi.org/10.1186/s13326-024-00305-2](http://doi.org/10.1186/s13326-024-00305-2)
+
 Zenodo: [https://doi.org/10.5281/zenodo.10419785](https://doi.org/10.5281/zenodo.10419785)
 
 ## Setup
