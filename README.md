@@ -1,5 +1,8 @@
 # Artifact "Comparing Generative and Extractive Approaches to Information Extraction from Abstracts Describing Randomized Clinical Trials"
 
+DOI: [http://doi.org/10.1186/s13326-024-00305-2][(http://doi.org/10.1186/s13326-024-00305-2)
+Zenodo: [https://doi.org/10.5281/zenodo.10419785](https://doi.org/10.5281/zenodo.10419785)
+
 ## Setup
 
 We suggest using Python 3.10.12 or newer to run this artifact, older versions have not been tested. The following instructions should work for most mayor Linux distributions.
@@ -90,4 +93,26 @@ scripts-generative/eval-gen.sh
 9. Generate evaluation summary with mean and standard deviations for training with best parameters (first activate virtual environment and set `PYTHONPATH` as shown above!). Some tables are only printed and generated if you run the command a second time because they are first only saved to pickle files.
 ```bash
 python src/eval_summary_best.py --results /path/to/results/folder/ 
+```
+
+## Citation
+
+Please consider citing our work if you find the provided resources useful:
+
+```bibtex
+@article{witte-schmidt-cimiano-2024-ct-ie,
+  author       = {Christian Witte and
+                  David M. Schmidt and
+                  Philipp Cimiano},
+  title        = {Comparing generative and extractive approaches to information extraction
+                  from abstracts describing randomized clinical trials},
+  journal      = {J. Biomed. Semant.},
+  volume       = {15},
+  number       = {1},
+  pages        = {3},
+  year         = {2024},
+  url          = {https://doi.org/10.1186/s13326-024-00305-2},
+  doi          = {10.1186/S13326-024-00305-2},
+  timestamp    = {Sun, 04 Aug 2024 19:50:36 +0200},
+}
 ```
